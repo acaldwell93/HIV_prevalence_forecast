@@ -22,6 +22,9 @@
    There is a very clear skew in our distribution. The vast majority of counties have an incidence rate of 0. This imbalance in our target values is going to have an large influence on our linear regression. So, if we want to find the coefficients that can accurately predict HIV incidence, we'll need to filter out these zero values. Ideally, we'd create a logarithmic regression model to first do Classification to determine whether a county is zero or non-zero HIV incidence, and then feed the non-zero data into our linear regression model. For now, let's focus on our linear regression for non-zero counties.
 
 
+   #### Using an OLS first
+   
+   ![](images/OLS_table.png)
    
    #### - Using a LASSO Regression
    
