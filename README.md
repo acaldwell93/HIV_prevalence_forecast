@@ -37,8 +37,26 @@
    
    ![](images/alpha_vs_mse.png)
 
-We found that our optimized alpha value was at roughly .0461. This gives us the best balance between predictive power and model complexity. Here's another visualization that shows how the coefficients changed as we adjust our alpha values:
+  We found that our optimized alpha value was at roughly .0461. This gives us the best balance between predictive power and model complexity. Here's another visualization that shows how the coefficients changed as we adjust our alpha values:
 
-   ![](images/LASSO graph.PNG)
+   ![](images/LASSO_graph.png)
    
-    Our Mean Squared Error on our final hold out data: .169
+ ### Conclusions
+
+So, what are the largest positive coefficients?
+ 
+  - HIV prevalence (.319)
+  - Morphine Milligram Equivalent (.125)
+  - MSM% 5 year (.02)
+  - poverty rate (.01)
+  - unemployment (.01)
+  - Non-medical use of pain relievers
+
+
+What are some negative coefficients?
+
+ - Drug death rate (-.10)
+ - Number of substance abuse treatment facilities (-.023)
+
+  
+Our Mean Squared Error on our final hold out data: .169
