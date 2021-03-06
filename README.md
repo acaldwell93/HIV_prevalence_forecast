@@ -38,7 +38,7 @@
    
    So we split our data into hold-out and test data, then made sure to standardize our data. We then did a train-test split on our test data so we could iterate through various alpha values and find the alpha value that minimized our mean squared error:
    
-   ![](images/alpha_vs_mse.png)
+   ![](images/updated.png)
 
   We found that our optimized alpha value was at roughly .0461. This gives us the best balance between predictive power and model complexity. Here's another visualization that shows how the coefficients changed as we adjust our alpha values:
 
